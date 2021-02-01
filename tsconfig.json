@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "allowJs": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    // "noEmit": true,
+    "noEmit": false,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "src/*":["src/*"],
+      "@components/*":["src/components/*"],
+      "@common/*":["src/common/*"],
+      "@services/*":["src/services/*"],
+      "@models/*": ["src/models/*"],
+      "@utils/*": ["src/utils/*"],
+      "@hoc/*": ["src/hoc/*"],
+      "@hooks/*": ["src/hooks/*"]
+    }
+  },
+  "files": [
+    "./src/models/connect.ts"
+  ],
+  "include": [
+    "src"
+  ],
+}

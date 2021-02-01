@@ -1,0 +1,6 @@
+{
+  "target": "pc-admin",
+  "pageMenu": "src/routes",
+  "componentsMenu": "src/components",
+  "templateMenu": "template"
+}
